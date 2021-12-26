@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad 8.8.3 - Carlos A. Moran</title>
+
+    <style>
+        div[class^="test"] {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="first_test">Primer elemento div</div>
+    <div class="second">Segundo elemento div</div>
+    <div class="test">Tercer elemento div</div>
+    <div class="text_ex">Cuarto elemento div</div>
+    <p class="test">Esto es el texto de un parrafo</p>
+    <p class="test_ex">Y esto es otro parrafo</p>
+
+    <div>
+        <h1>Responde a la pregunta</h1>
+        <p>¿Que ocurre si añadimos al principio de la linea <i>div[class^=...</i> lo siguiente?</p>
+        <h2>p,</h2>
+        <p>Pues que se aplicaria a todos los elementos <b>p</b>, ya que la coma separa entre elementos, pero no aplica los selectores de atributo a estos</p>
+        <p>Para conseguir el resultado de que solo los elementos <b>p</b> y <b>div</b> cuya clase empieze por la cadena <b>"test"</b> se aplique el estilo indicado seria:
+        <br>
+        <code>p[class^="test"],div[class^="test"]{...</code></p>
+    </div>
+
+    <div>
+        <a href="./css31.html"
+          ><button
+            style="
+              border-radius: 6px;
+              font-size: 90%;
+              box-shadow: none;
+              background-color: cornflowerblue;
+              color: white;
+            "
+          >
+            Volver
+          </button></a
+        >
+      </div>
+</body>
+</html>
