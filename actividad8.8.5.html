@@ -5,9 +5,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Actividad 8.8.5 - Carlos A. Moran</title>
+    <style>
+      * {
+        margin: 3px;
+      }
+
+      h1 {
+        color: rgb(50, 50, 50);
+        font-style: italic;
+      }
+
+      #introduccion{
+        border-style: dotted;
+        padding: 1em;
+      }
+
+      .positivo {
+        color: green;
+        font-weight: bolder;
+      }
+      .negativo {
+        color: red;
+        font-weight: bolder;
+      }
+
+      input[type] {
+        background-color: rgb(192, 248, 196);
+      }
+      input[type=text] {
+        color: rgb(0, 98, 255);
+        font-weight: bolder;
+      }
+    </style>
 </head>
 <body>
-    
+    <h1>RESUMEN ANUAL</h1>
+    <form action="">
+      <input type="text" name="" id="" placeholder="Departamento">
+      <input type="number" name="" id="" placeholder="Limite de ventas">
+    </form>
+
+    <p id="introduccion">Durante la temporada los resultados han sido satisfactorios.</p>
+    <table>
+      <tr>
+        <th>Ingresos</th>
+        <th>Gastos</th>
+        <th>Diferencia</th>
+      </tr>
+      <tr>
+        <td>100</td>
+        <td>50</td>
+        <td class="positivo">50</td>
+      </tr>
+      <tr>
+        <td>200</td>
+        <td>190</td>
+        <td class="negativo">-100</td>
+      </tr>
+    </table>
 
     <div>
         <a href="./css31.html"
